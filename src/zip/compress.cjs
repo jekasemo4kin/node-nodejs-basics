@@ -1,5 +1,5 @@
 const {createReadStream, createWriteStream} = require('fs');
-const createGzip = require('zlib');
+const {createGzip} = require('zlib');
 //                                                       './files/'
 
 const compress = async () => {
