@@ -7,7 +7,7 @@ const read = async () => {
     readStream.on('data', function (chunk) {
       console.log(chunk);
     }).on('end', function () {
-      console.log('FINISHED! Everythn is OK!');
+      console.log('nice game');
     }).on('error', function () {
       process.stderr.write(error);
       process.exit(1);
